@@ -2,7 +2,7 @@ import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
 import httpStatus from "http-status"
-import config from './app/config'
+import config from './app/config/index'
 import { globalErrorHandler } from './app/middleware/globalErrorHandler'
 import { notFound } from './app/middleware/notFound'
 import { AuthRoutes } from './app/module/auth/auth.route'
